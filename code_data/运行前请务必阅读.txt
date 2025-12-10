@@ -1,0 +1,3 @@
+①text_raw文件夹保存原始语料Opensubtitles v2016（9GB）。step1代码运行前请将语料en.txt文件下载并保存至文件夹text_raw。step1结果为text_processed文件夹中的en_processed.txt（同样因过大删除130mb，请重新运行生成），可直接用于step2。
+②models文件夹应存储自训练的36个模型（4GB）。因作业提交大小有限，仅保留了similarity和analogy测试最佳的两个模型。如果直接运行step3和step5会影响生成的allmodel_info.csv、bestmodels.csv、window_analogy.png、window_similarity.png。如果需要运行step3、step5，请删除models文件夹中文件，运行step2后再运行step3、step5
+③pretrained_models文件夹保存预训练模型的.kv文件（5GB）。step4代码运行时需要重新下载和保存。

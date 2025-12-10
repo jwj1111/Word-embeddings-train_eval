@@ -1,0 +1,7 @@
+,wordsim-353,wordsim-353,wordsim-353,simlex-999,simlex-999,simlex-999
+model_name,pearson-r,spearman-rho,coverage,pearson-r,spearman-rho,coverage
+word2vec-google-news-300,0.65,0.69,0.99,0.45,0.44,1.0
+glove-wiki-gigaword-300,0.6,0.61,1.0,0.39,0.37,1.0
+fasttext-wiki-news-subwords-300,0.7,0.7,1.0,0.47,0.44,1.0
+skipgram_win-5_vsize-300_ep-5,0.44,0.47,0.97,0.26,0.26,0.99
+cbow_win-5_vsize-300_ep-7,0.37,0.37,0.97,0.15,0.15,0.99
